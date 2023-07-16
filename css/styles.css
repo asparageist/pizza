@@ -17,6 +17,16 @@ body {
   border-radius: 50%;
 }
 
+#insert {
+  position: absolute;
+  bottom: 15%;
+  left: 33%;
+  width: 33%;
+  background-color: rgb(133, 132, 132);
+  border: 5px solid black;
+  border-radius: 50%;
+}
+
 button {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 50%;

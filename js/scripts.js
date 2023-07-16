@@ -23,5 +23,15 @@ function myPizza() {
   }
   const myCost = parseInt(mySize) + parseInt(myTops);
   const orderPizza = new pizza(mySize, myTops, myCost);
-  console.log(orderPizza);
+  display(orderPizza);
+}
+
+function display(orderPizza) {
+  const insertPizza = document.getElementById("insert");
+  insertPizza.innerHTML="";
+  const showPizza = document.createElement("p");
+  showPizza.textContent = `your size: $${orderPizza.size}, your toppings: $${orderPizza.tops}, your pizza costs: $${orderPizza.cost}. come and get it. it's ready.`;
+  insertPizza.appendChild(document.createElement("br"));
+  insertPizza.appendChild(showPizza);
+  console.log(showPizza);
 }

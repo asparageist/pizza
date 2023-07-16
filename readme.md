@@ -59,3 +59,7 @@ Expected Output: "Pizza {toppings: ["pineapple"], size: "big"}"
 Test: "It should successfully add together pizza costs"
 Code: const myCost = topsCost + sizeCost;
 Expected Output: "Pizza {toppings: ["pineapple"], size: "big", cost: 10}"
+
+Test: "It should display the pizza's information to the user"
+Code: showPizza.textContent;
+Expected Output: "your pizza costs $10. come get it."
