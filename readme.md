@@ -19,7 +19,7 @@ This application simulates the website of a pizza restaurant where users can pla
 ## Setup/Installation Requirements
 
 - requires internet connection to load
-- simply click the link to view live installment on GH pages
+- simply click the link "https://asparageist.github.io/pizza/" to view live installment on GH pages
 - Or clone the repository to edit
 - Navigate to top level of directory
 - open index.html in compatible web browser
