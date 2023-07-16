@@ -1,7 +1,23 @@
 body {
+  background-color: black;
   text-align: center;
+  background-image: url(../img/chefza.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-.drop:hover {
-  display: block;
+.pizza {
+  position: absolute;
+  top: 5%;
+  left: 33%;
+  width: 33%;
+  background-color: rgb(133, 132, 132);
+  border: 5px solid black;
+  border-radius: 50%;
+}
+
+button {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }

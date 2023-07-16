@@ -14,21 +14,29 @@
     <title>too much pizza</title>
   </head>
   <body>
-    <h1>get yer pizza</h1>
-    <div class="drop">
+    <div class="pizza">
+      <h1>get yer pizza</h1>
       <form id="select-form">
         <select id="size">
-          <option>big</option>
-          <option>bigger</option>
-          <option>biggest</option>
+          <option>big - $5</option>
+          <option>bigger - $10</option>
+          <option>biggest - $15</option>
         </select>
+        <br />
+        <label>
+          <input type="radio" name="topping" value="pine" checked />
+          pineapple - $5</label
+        ><br />
+        <label>
+          <input type="radio" name="topping" value="twoPine" />
+          no pineapple - $6</label
+        ><br />
+        <label>
+          <input type="radio" name="topping" value="noPine" />
+          two pineapples - $10</label
+        ><br />
+        <button type="submit">gimme</button>
       </form>
-      <input type="checkbox" id="toppings" name="pineapple" />
-      <label for="toppings"> pineapple</label><br />
-      <input type="checkbox" id="toppings" name="noPineapple" />
-      <label for="toppings"> no pineapple</label><br />
-      <input type="checkbox" id="toppings" name="twoPineapples" />
-      <label for="toppings"> two pineapples</label><br />
     </div>
     <script src="js/scripts.js"></script>
   </body>
