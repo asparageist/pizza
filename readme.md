@@ -11,7 +11,6 @@
 - Github
 - JavaScript
 - Bootstrap
--
 
 ## Description
 
