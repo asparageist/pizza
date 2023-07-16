@@ -54,5 +54,8 @@ SOFTWARE.
 
 Test: "It should create an object upon clicking submit."
 Code: const myPizza = new Pizza("big", "pine");
+Expected Output: "Pizza {toppings: ["pineapple"], size: "big"}"
 
-Expected Output: "Pizza {toppings: ["pineapple"], size: "big"}
+Test: "It should successfully add together pizza costs"
+Code: const myCost = topsCost + sizeCost;
+Expected Output: "Pizza {toppings: ["pineapple"], size: "big", cost: 10}"

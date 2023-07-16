@@ -4,9 +4,10 @@ window.onload = function() {
   }
 }
 
-function pizza(size ,tops) {
+function pizza(size ,tops, cost) {
   this.size = size;
   this.tops = tops;
+  this.cost = cost;
 }
 
 function myPizza() {
@@ -20,6 +21,7 @@ function myPizza() {
       break;
     }
   }
-  const orderPizza = new pizza(mySize, myTops);
+  const myCost = parseInt(mySize) + parseInt(myTops);
+  const orderPizza = new pizza(mySize, myTops, myCost);
   console.log(orderPizza);
 }
