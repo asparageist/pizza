@@ -16,18 +16,19 @@
   <body>
     <h1>get yer pizza</h1>
     <div class="drop">
-      <button class="dropButton">SIZE</button>
-      <div id="dropSize" class="dropMenu">
-        <p>big</p>
-        <p>bigger</p>
-        <p>biggest</p>
-      </div>
-      <button class="dropButton">TOPS</button>
-      <div id="dropTops" class="dropMenu">
-        <p>pineapple</p>
-        <p>that's it we only have pineapple</p>
-        <p>i guess we could charge you for no pineapple</p>
-      </div>
+      <form id="select-form">
+        <select id="size">
+          <option>big</option>
+          <option>bigger</option>
+          <option>biggest</option>
+        </select>
+      </form>
+      <input type="checkbox" id="toppings" name="pineapple" />
+      <label for="toppings"> pineapple</label><br />
+      <input type="checkbox" id="toppings" name="noPineapple" />
+      <label for="toppings"> no pineapple</label><br />
+      <input type="checkbox" id="toppings" name="twoPineapples" />
+      <label for="toppings"> two pineapples</label><br />
     </div>
     <script src="js/scripts.js"></script>
   </body>

@@ -2,34 +2,6 @@ body {
   text-align: center;
 }
 
-.dropButton {
-  color: white;
-  background-color: black;
-  border: none;
-  cursor: pointer;
-}
-
-.dropButton:hover {
-  background-color: darkslategray;
-}
-
-.drop {
-  position: relative;
-  display: inline-block;
-}
-
-.dropMenu {
-  display: none;
-  position: absolute;
-  background-color: lightgray;
-  box-shadow: 0px 8px 16px 0px (0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropMenu a:hover {
-  color: blue;
-}
-
-.show {
-  display:block; 
+.drop:hover {
+  display: block;
 }
