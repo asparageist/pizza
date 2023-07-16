@@ -33,5 +33,4 @@ function display(orderPizza) {
   showPizza.textContent = `your size: $${orderPizza.size}, your toppings: $${orderPizza.tops}, your pizza costs: $${orderPizza.cost}. come and get it. it's ready.`;
   insertPizza.appendChild(document.createElement("br"));
   insertPizza.appendChild(showPizza);
-  console.log(showPizza);
 }
